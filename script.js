@@ -1,5 +1,5 @@
 const SCRIPT_URL =
-"https://script.google.com/macros/s/AKfycbybB-PwxWSDh47bIitp24FAGF1NFCOY4ikCOjUunVgp0iW16BLaplS8cSNgiqZK32Pqtg/exec";
+"https://script.google.com/macros/s/AKfycbze9uaQt3dQmRWaQS1dlra6-vPG9agCEE8YRxfpbvPgSS-s5RgszE2HBo93FsBRyEsz/exec";
 
 const form = document.getElementById("inductionForm");
 const submitBtn = document.getElementById("submitBtn");
