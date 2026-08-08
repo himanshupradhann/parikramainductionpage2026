@@ -89,7 +89,7 @@ body{
 .club-name{
 letter-spacing:9px;
 color:#B9E6FF;
-font-size:1.15rem;
+font-size:4.3rem;
 font-weight:700;
 margin-bottom:20px;
 text-shadow:0 0 12px rgba(120,210,255,.35);
@@ -97,7 +97,7 @@ text-shadow:0 0 12px rgba(120,210,255,.35);
 
 .hero h1{
 font-family:"Playfair Display",serif;
-font-size:4.3rem;
+font-size:1.15rem;
 font-weight:700;
 margin-bottom:10px;
 text-shadow:0 2px 18px rgba(0,0,0,.35);
