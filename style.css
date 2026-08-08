@@ -37,33 +37,6 @@ body{
     pointer-events:none;
 }
 
-.stars{
-    position:fixed;
-    inset:0;
-    pointer-events:none;
-    opacity:.35;
-
-    background-image:
-    radial-gradient(#ffffff 1px, transparent 1px),
-    radial-gradient(#ffffff 1px, transparent 1px);
-
-    background-size:70px 70px,120px 120px;
-    background-position:0 0,40px 40px;
-
-    animation:moveStars 120s linear infinite;
-}
-
-@keyframes moveStars{
-
-    from{
-        transform:translateY(0);
-    }
-
-    to{
-        transform:translateY(-250px);
-    }
-
-}
 
 /* ===========================
       LAYOUT
@@ -74,7 +47,7 @@ body{
     width:min(1100px,92%);
     margin:auto;
 
-    padding:70px 0;
+    padding:90px 0;
 
 }
 
@@ -87,12 +60,13 @@ body{
 }
 
 .club-name{
-letter-spacing:9px;
-color:#B9E6FF;
-font-size:4.3rem;
-font-weight:700;
-margin-bottom:20px;
-text-shadow:0 0 12px rgba(120,210,255,.35);
+    letter-spacing:9px;
+    color:#B9E6FF;
+    font-family:'Source Serif 4', serif;
+    font-size:4.3rem;
+    font-weight:700;
+    margin-bottom:20px;
+    text-shadow:0 0 12px rgba(120,210,255,.35);
 }
 
 .hero h1{
@@ -379,8 +353,11 @@ cursor:not-allowed;
 .club-name{
 
     letter-spacing:4px;
-
     font-size:.8rem;
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 
 }
 
@@ -408,7 +385,36 @@ button{
 
 }
 
-#fontclr option {
+.fontclr option {
     color: #030303;
     background-color: white;
+}
+
+/* Logo positioning */
+.logo{
+    position:fixed;
+    top:18px;
+    height:clamp(60px,7vw,110px);
+    width:auto;
+    z-index:30;
+}
+
+.logo.left{
+    left:18px;
+}
+
+.logo.right{
+    right:18px;
+}
+
+@media(max-width:768px){
+    .logo{
+        height:clamp(50px,8vw,80px);
+    }
+}
+
+@media(max-width:480px){
+    .logo{
+        height:clamp(40px,10vw,60px);
+    }
 }

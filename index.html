@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
@@ -22,9 +23,9 @@
     <!-- Background Overlay -->
     <div class="background-overlay"></div>
 
-    <!-- Animated Stars -->
-    <div class="stars"></div>
-
+    <!-- Logos (replace logo.png with your PNG file; logo.svg provided) -->
+    <img src="logo.png" alt="Parikramaka Logo" class="logo left">
+    <img src="Parikramaka_logo.svg" alt="Parikramaka Logo (SVG)" class="logo right">
     <main class="container">
 
         <!-- Hero -->
@@ -132,6 +133,7 @@
 
                     <select
                         id="subsystem1"
+                        class="fontclr"
                         required
                     >
 
@@ -139,7 +141,6 @@
                             Select Primary Subsystem
                         </option>
 
-                        <div id="fontclr">
                         <option >
                             Command & Data Handling
                         </option>
@@ -159,7 +160,6 @@
                         <option>
                             Management
                         </option>
-                        </div>
 
                     </select>
 
@@ -173,13 +173,12 @@
 
                     <select
                         id="subsystem2"
+                        class="fontclr"
                     >
 
                         <option value="" disabled selected>
                             Select Secondary Subsystem
                         </option>
-
-                        <div id="fontclr">
 
                         <option>
                             Command & Data Handling
@@ -200,7 +199,6 @@
                         <option>
                             Management
                         </option>
-                        </div>
 
                     </select>
 
@@ -229,14 +227,13 @@
 
                     <select
                         id="howHeard"
+                        class="fontclr"
                         required
                     >
 
                         <option value="" disabled selected>
                             Select an option
                         </option>
-
-                        <div id="fontclr">
 
                         <option>
                             Friend
@@ -257,7 +254,6 @@
                         <option>
                             Other
                         </option>
-                        </div>
 
                     </select>
 
