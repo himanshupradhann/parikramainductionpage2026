@@ -192,7 +192,6 @@ body{
     flex-direction:column;
 
     margin-bottom:24px;
-
 }
 
 label{
@@ -204,7 +203,6 @@ label{
     color:#D5DCE6;
 
 }
-
 input,
 select,
 textarea{
@@ -440,4 +438,9 @@ button{
 
 }
 
+}
+
+#fontclr option {
+    color: #030303;
+    background-color: white;
 }
