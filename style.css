@@ -87,29 +87,20 @@ body{
 }
 
 .club-name{
-
-    letter-spacing:8px;
-
-    color:#8ECF63;
-
-    font-size:.9rem;
-
-    font-weight:700;
-
-    margin-bottom:20px;
-
+letter-spacing:9px;
+color:#B9E6FF;
+font-size:1.15rem;
+font-weight:700;
+margin-bottom:20px;
+text-shadow:0 0 12px rgba(120,210,255,.35);
 }
 
 .hero h1{
-
-    font-family:"Playfair Display",serif;
-
-    font-size:4rem;
-
-    font-weight:700;
-
-    margin-bottom:10px;
-
+font-family:"Playfair Display",serif;
+font-size:4.3rem;
+font-weight:700;
+margin-bottom:10px;
+text-shadow:0 2px 18px rgba(0,0,0,.35);
 }
 
 .hero h2{
@@ -250,14 +241,9 @@ textarea::placeholder{
 
 }
 
-input:focus,
-textarea:focus,
-select:focus{
-
-    border-color:#76D65A;
-
-    box-shadow:0 0 15px rgba(118,214,90,.35);
-
+input:focus,textarea:focus,select:focus{
+border-color:#62CFFF;
+box-shadow:0 0 15px rgba(98,207,255,.30);
 }
 
 /* ===========================
@@ -265,47 +251,29 @@ select:focus{
 =========================== */
 
 button{
-
-    width:100%;
-
-    border:none;
-
-    border-radius:16px;
-
-    padding:18px;
-
-    cursor:pointer;
-
-    font-size:1rem;
-
-    font-weight:600;
-
-    color:white;
-
-    background:#6FAE46;
-
-    transition:.3s;
-
+width:100%;
+border:none;
+border-radius:16px;
+padding:18px;
+cursor:pointer;
+font-size:1rem;
+font-weight:600;
+color:white;
+background:linear-gradient(135deg,#2878D8,#35BCEB);
+transition:.3s;
+box-shadow:0 8px 20px rgba(40,120,216,.20);
 }
 
 button:hover{
-
-    transform:translateY(-2px);
-
-    background:#81C65A;
-
-    box-shadow:0 15px 30px rgba(111,174,70,.35);
-
+transform:translateY(-2px);
+background:linear-gradient(135deg,#3588E8,#45C8F2);
+box-shadow:0 15px 30px rgba(40,120,216,.35);
 }
 
 button:disabled{
-
-    opacity:.7;
-
-    cursor:not-allowed;
-
+opacity:.7;
+cursor:not-allowed;
 }
-
 /* ===========================
       STATUS
 =========================== */
