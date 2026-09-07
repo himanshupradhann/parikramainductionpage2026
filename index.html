@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +12,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+        rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
@@ -27,10 +32,6 @@
     <img src="logo.png" alt="Parikramaka Logo" class="logo left">
     <img src="Parikramaka_logo.svg" alt="Parikramaka Logo (SVG)" class="logo right">
     <main class="container">
-        <div class="visitor-counter">
-  <span class="eye">👁</span>
-  <span id="visitorCount">Loading...</span>
-</div>
 
 
         <!-- Hero -->
@@ -39,7 +40,7 @@
             <p class="club-name">
                 PARIKRAMAKA
             </p>
-            
+
 
             <h1>
                 Student Satellite Club
@@ -84,12 +85,7 @@
 
                     <label for="name">Full Name</label>
 
-                    <input
-                        type="text"
-                        id="name"
-                        placeholder="Enter your full name"
-                        required
-                    >
+                    <input type="text" id="name" placeholder="Enter your full name" required>
 
                 </div>
 
@@ -99,12 +95,7 @@
                         College Roll Number
                     </label>
 
-                    <input
-                        type="text"
-                        id="rollNumber"
-                        placeholder="123AB4567"
-                        required
-                    >
+                    <input type="text" id="rollNumber" placeholder="123AB4567" required>
 
                 </div>
 
@@ -114,12 +105,7 @@
                         Phone Number
                     </label>
 
-                    <input
-                        type="tel"
-                        id="phoneNumber"
-                        placeholder="9876543210"
-                        required
-                    >
+                    <input type="tel" id="phoneNumber" placeholder="9876543210" required>
 
                 </div>
 
@@ -129,12 +115,7 @@
                         Personal Email
                     </label>
 
-                    <input
-                        type="email"
-                        id="email"
-                        placeholder="example@gmail.com"
-                        required
-                    >
+                    <input type="email" id="email" placeholder="example@gmail.com" required>
 
                 </div>
 
@@ -144,17 +125,13 @@
                         Primary Subsystem
                     </label>
 
-                    <select
-                        id="subsystem1"
-                        class="fontclr"
-                        required
-                    >
+                    <select id="subsystem1" class="fontclr" required>
 
                         <option value="" disabled selected>
                             Select Primary Subsystem
                         </option>
 
-                        <option >
+                        <option>
                             Command & Data Handling
                         </option>
 
@@ -184,10 +161,7 @@
                         Secondary Subsystem
                     </label>
 
-                    <select
-                        id="subsystem2"
-                        class="fontclr"
-                    >
+                    <select id="subsystem2" class="fontclr">
 
                         <option value="" disabled selected>
                             Select Secondary Subsystem
@@ -223,12 +197,7 @@
                         What do you hope to achieve by joining Parikramaka?
                     </label>
 
-                    <textarea
-                        id="primaryGoal"
-                        rows="4"
-                        placeholder="Tell us about your goals..."
-                        required
-                    ></textarea>
+                    <textarea id="primaryGoal" rows="4" placeholder="Tell us about your goals..." required></textarea>
 
                 </div>
 
@@ -238,11 +207,7 @@
                         How did you hear about us?
                     </label>
 
-                    <select
-                        id="howHeard"
-                        class="fontclr"
-                        required
-                    >
+                    <select id="howHeard" class="fontclr" required>
 
                         <option value="" disabled selected>
                             Select an option
@@ -272,22 +237,26 @@
 
                 </div>
 
-                <button
-                    type="submit"
-                    id="submitBtn"
-                >
+                <button type="submit" id="submitBtn">
                     Submit Application
                 </button>
 
                 <div id="statusMessage"></div>
 
             </form>
-
+            
         </section>
 
     </main>
-<script type="module" src="src/counter.js"></script>
+    <script type="module" src="src/counter.js"></script>
     <script src="script.js"></script>
+    <footer>
+        <div class="visitor-counter">
+                <span class="eye">Visitors</span>
+                <span id="visitorCount">Loading...</span>
+            </div>
+    </footer>
 
 </body>
+
 </html>
